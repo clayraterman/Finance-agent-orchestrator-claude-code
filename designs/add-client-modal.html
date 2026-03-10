@@ -1,0 +1,69 @@
+<!-- Add Client Modal - Claude Code v1 -->
+<!-- This is an overlay on top of Mission Control -->
+<!-- Artboard: 1440x900 -->
+<!-- Paper MCP: create_artboard name="Add Client Modal - Claude Code v1" width=1440 height=900 -->
+<!-- Paper MCP: write_html target=artboard_id mode="replace" -->
+
+<div style="display: flex; align-items: center; justify-content: center; width: 1440px; height: 900px; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: rgba(0,0,0,0.4);">
+
+  <!-- Modal -->
+  <div style="width: 480px; background: #FFFFFF; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.08); overflow: hidden;">
+
+    <!-- Modal Header -->
+    <div style="display: flex; align-items: center; justify-content: space-between; padding: 20px 24px 16px 24px;">
+      <div>
+        <h2 style="font-size: 18px; font-weight: 600; color: #1A1A1A; margin: 0;">Add New Client</h2>
+        <p style="font-size: 13px; color: #A3A3A3; margin: 4px 0 0 0;">Onboard a client and deploy baseline agents.</p>
+      </div>
+      <div style="width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; border-radius: 6px; cursor: pointer; color: #A3A3A3; font-size: 18px; background: #F3F1EC;">&times;</div>
+    </div>
+
+    <!-- Divider -->
+    <div style="border-top: 1px solid #E8E5DF;"></div>
+
+    <!-- Form -->
+    <div style="padding: 20px 24px; display: flex; flex-direction: column; gap: 16px;">
+      <!-- Client Name -->
+      <div>
+        <label style="display: block; font-size: 13px; font-weight: 500; color: #1A1A1A; margin-bottom: 6px;">Client Name</label>
+        <div style="width: 100%; padding: 10px 12px; background: #FFFFFF; border: 1px solid #E8E5DF; border-radius: 6px; font-size: 14px; color: #A3A3A3; box-sizing: border-box;">e.g. Northstar Media</div>
+      </div>
+      <!-- Entity Type -->
+      <div>
+        <label style="display: block; font-size: 13px; font-weight: 500; color: #1A1A1A; margin-bottom: 6px;">Entity Type</label>
+        <div style="width: 100%; padding: 10px 12px; background: #FFFFFF; border: 1px solid #E8E5DF; border-radius: 6px; font-size: 14px; color: #525252; display: flex; align-items: center; justify-content: space-between; box-sizing: border-box;">
+          <span>LLC</span>
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+            <path d="M3 5L6 8L9 5" stroke="#A3A3A3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+      </div>
+      <!-- Primary Contact -->
+      <div>
+        <label style="display: block; font-size: 13px; font-weight: 500; color: #1A1A1A; margin-bottom: 6px;">Primary Contact Email</label>
+        <div style="width: 100%; padding: 10px 12px; background: #FFFFFF; border: 1px solid #E8E5DF; border-radius: 6px; font-size: 14px; color: #A3A3A3; box-sizing: border-box;">client@company.com</div>
+      </div>
+      <!-- Deploy Agents Checkbox -->
+      <div style="display: flex; align-items: center; gap: 8px; padding: 12px; background: #FAF9F6; border-radius: 6px;">
+        <div style="width: 16px; height: 16px; border: 1px solid #6B7C6E; border-radius: 3px; background: #6B7C6E; display: flex; align-items: center; justify-content: center;">
+          <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
+            <path d="M2 5L4 7L8 3" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div>
+          <div style="font-size: 13px; font-weight: 500; color: #1A1A1A;">Deploy baseline agent template</div>
+          <div style="font-size: 12px; color: #A3A3A3;">Auto-deploy standard finance agent to this workspace</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Divider -->
+    <div style="border-top: 1px solid #E8E5DF;"></div>
+
+    <!-- Actions -->
+    <div style="display: flex; align-items: center; justify-content: flex-end; gap: 8px; padding: 16px 24px;">
+      <button style="padding: 8px 16px; background: transparent; color: #525252; border: 1px solid #E8E5DF; border-radius: 6px; font-size: 13px; font-weight: 500; cursor: pointer; font-family: inherit;">Cancel</button>
+      <button style="padding: 8px 16px; background: #6B7C6E; color: white; border: none; border-radius: 6px; font-size: 13px; font-weight: 500; cursor: pointer; font-family: inherit;">Create Client</button>
+    </div>
+  </div>
+</div>
